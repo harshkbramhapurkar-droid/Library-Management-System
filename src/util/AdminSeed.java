@@ -29,10 +29,11 @@ public class AdminSeed {
                 stmt.setString(5, "ADMIN");
 
                 stmt.executeUpdate();
-                System.out.println("✅ Admin Created Successfully!");
+                System.out.println("Admin Created Successfully!");
             } else {
-                System.out.println("⚠️ Admin user already exists. Skipping insert.");
+                System.out.println("Admin user already exists. Skipping insert.");
             }
         }
     }
 }
+
