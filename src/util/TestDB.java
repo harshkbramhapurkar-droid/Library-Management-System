@@ -14,9 +14,10 @@ public class TestDB {
                 "9284"
             );
             
-            System.out.println("✅ Database Connected Successfully!");
+            System.out.println("Database Connected Successfully!");
         } catch (Exception e) {
             e.printStackTrace();
         }
     }
 }
+
